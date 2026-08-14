@@ -1,0 +1,20 @@
+# 忽略根目录构建文件夹
+/build/
+/build-*/
+/install/
+/documents/
+/.cache/
+# CMake 产生的临时文件（如果未在 build 目录下构建）
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# 编译中间文件和静态库/动态库产物
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.exe
